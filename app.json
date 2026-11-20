@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Acronym",
+    "slug": "acronym",
+    "version": "1.0.0",
+    "scheme": "acronym",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FAF6EC"
+    },
+    "android": {
+      "package": "com.acronym.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "backgroundColor": "#FFF8E8",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      }
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": [
+            "./assets/fonts/WantedSans-Regular.ttf",
+            "./assets/fonts/WantedSans-Medium.ttf",
+            "./assets/fonts/WantedSans-SemiBold.ttf",
+            "./assets/fonts/WantedSans-Bold.ttf",
+            "./assets/fonts/WantedSans-ExtraBold.ttf",
+            "./assets/fonts/WantedSans-Black.ttf"
+          ]
+        }
+      ]
+    ],
+    "icon": "./assets/icon.png"
+  }
+}
